@@ -1,0 +1,705 @@
+<style>
+    .modal_product {
+        border: 1px solid black;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        display: grid;
+        place-items: center;
+    }
+
+    .items_modal {
+        background: #fffffe;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        border-top: 10px solid #0D6B68;
+        width: -webkit-fill-available;
+    }
+
+    .items-head_product p {
+        padding: 5px 20px;
+        margin: 10px;
+        color: #0D6B68;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .smaller_font {
+        color: #0D6B68;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .items-head_product hr {
+        width: 20%;
+        margin: 0px 30px;
+        border: 1px solid #0b5aa2;
+    }
+
+    .items-body-product {
+        padding: 10px;
+        margin: 10px;
+        display: grid;
+        grid-gap: 10px;
+    }
+
+    .items-body-content {
+        padding: 10px;
+        padding-right: 0px;
+        display: grid;
+        grid-template-columns: 1fr 10fr;
+        font-size: 13px;
+        grid-gap: 10px;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }
+
+    .items-body-content-link {
+        padding: 10px;
+        padding-right: 0px;
+        display: grid;
+        grid-template-columns: 10fr 1fr;
+        font-size: 13px;
+        grid-gap: 10px;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }
+
+    .items-body-content:hover {
+        border-radius: 15px;
+        border: 1px solid #0D6B68;
+    }
+
+    .items-body-content i {
+        align-self: center;
+        font-size: 15px;
+        color: #0D6B68;
+        font-weight: bold;
+        animation: icon 1.5s infinite forwards;
+    }
+
+    @keyframes icon {
+
+        0%,
+        100% {
+            transform: translate(0px);
+        }
+
+        50% {
+            transform: translate(5px);
+        }
+    }
+
+    .button_pesan {
+        background-color: #0d6b68;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .button_pesan:hover {
+        transform: scale(1.1) rotate(2deg);
+    }
+</style>
+
+
+
+<!-- Virtual Office -->
+
+<div class="modal fade" id="kantorvirtual" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="container modal_product">
+                <div class="items_modal">
+                    <div class="items-head_product">
+                        <p>
+                            Virtual Office
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="items-body-product">
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Penyewaan alamat bisnis selama 1 tahun</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Layanan resepsionis</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Penanganan surat / paket</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Pemberitahuan penerimaan surat / paket</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Surat domisili</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Kuota 5jam/ bulan <br>
+                                (meeting room/ workspace / live streaming studio)</span>
+                        </div>
+                        <a href="https://wa.link/ev7554">
+                            <div class="items-body-content-link button_pesan">
+                                <span>
+                                    Pesan Sekarang
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <div class="items-body-content-link text-center">
+                                <span>
+                                    Batalkan
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal PT Perorangan -->
+<div class="modal fade" id="pt_perorangan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="items_modal">
+                <div class="items-head_product">
+                    <p>PT Perorangan Lite</p>
+                    <hr>
+                </div>
+                <div class="items-body-product">
+                    <div class="items-body-content">
+                        <i class="fa fa-angle-right"></i>
+                        <span>Cek & pesan nama PT Perorangan</span>
+                    </div>
+                    <div class="items-body-content">
+                        <i class="fa fa-angle-right"></i>
+                        <span>Sertifikat Pendirian PT Perorangan</span>
+                    </div>
+                    <div class="items-body-content">
+                        <i class="fa fa-angle-right"></i>
+                        <span>Pernyataan Pendirian PT Perorangan</span>
+                    </div>
+                    <div class="items-body-content">
+                        <i class="fa fa-angle-right"></i>
+                        <span>NPWP perusahaan (digital)</span>
+                    </div>
+                    <a href="https://wa.link/wfj2eh">
+                        <div class="items-body-content-link button_pesan">
+                            <span>
+                                Pesan Sekarang
+                            </span>
+                        </div>
+                    </a>
+                    <a href="#" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <div class="items-body-content-link text-center">
+                            <span>
+                                Batalkan
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="modal-content">
+            <div class="items_modal">
+                <div class="items-head_product">
+                    <p>PT Perorangan Lengkap</p>
+                    <hr>
+                </div>
+                <div class="items-body-product">
+                    <div class="items-body-content">
+                        <i class="fa fa-angle-right"></i>
+                        <span>Cek & pesan nama PT Perorangan</span>
+                    </div>
+                    <div class="items-body-content">
+                        <i class="fa fa-angle-right"></i>
+                        <span>Sertifikat Pendirian PT Perorangan</span>
+                    </div>
+                    <div class="items-body-content">
+                        <i class="fa fa-angle-right"></i>
+                        <span>Pernyataan Pendirian PT Perorangan</span>
+                    </div>
+                    <div class="items-body-content">
+                        <i class="fa fa-angle-right"></i>
+                        <span>NPWP perusahaan</span>
+                    </div>
+                    <div class="items-body-content">
+                        <i class="fa fa-angle-right"></i>
+                        <span>NIB & Sertifikat Standar* (jika ada)</span>
+                    </div>
+                    <a href="https://wa.link/syvea3">
+                        <div class="items-body-content-link button_pesan">
+                            <span>
+                                Pesan Sekarang
+                            </span>
+                        </div>
+                    </a>
+                    <a href="#" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <div class="items-body-content-link text-center">
+                            <span>
+                                Batalkan
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pt Perorangan + Virtual Office -->
+<div class="modal fade" id="pt_perorangan_vo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="container modal_product">
+                <div class="items_modal">
+                    <div class="items-head_product">
+                        <p>Pendirian PT Perorangan + Virtual Office</p>
+                        <hr>
+                    </div>
+                    <div class="items-body-product">
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Cek & pesan nama PT Perorangan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Sertifikat Pendirian PT Perorangan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Pernyataan Pendirian PT Perorangan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>NPWP perusahaan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>NIB & Sertifikat Standar* (jika ada) </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>dan semua fitur lengkap Virtual Office</span>
+                        </div>
+                        <hr>
+                        <p>
+                            Bonus *
+                            <br>
+                            <small class="smaller_font">
+                                Dapatkan bonus menarik serta potongan harga jika Anda membeli paket pendirian PT
+                                Perorangan + Virtual Office
+                            </small>
+                        </p>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Free tambahan 2 bulan sewa Virtual Office</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Free tambahan 5 jam/bulan (meeting room/workspace/live streaming studio) </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Free rekening perusahan </span>
+                        </div>
+                        <a href="https://wa.link/9r9qoh">
+                            <div class="items-body-content-link button_pesan">
+                                <span>
+                                    Pesan Sekarang
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <div class="items-body-content-link text-center">
+                                <span>
+                                    Batalkan
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Pendirian PT -->
+<div class="modal fade" id="pendirian_pt" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="container modal_product">
+                <div class="items_modal">
+                    <div class="items-head_product">
+                        <p>Pendirian PT</p>
+                        <hr>
+                    </div>
+                    <div class="items-body-product">
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Pendaftaran nama perusahaan </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Akta pendirian perusahaan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Pengesahan dari Kementerian Hukum dan Hak Asasi Manusia</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Nomor Pokok Wajib Pajak (NPWP) perusahaan </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>SKT (Surat Keterangan Terdaftar) </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>NIB & Sertifikat Standar* (jika ada) </span>
+                        </div>
+                        <a href="https://wa.link/b0cndu">
+                            <div class="items-body-content-link button_pesan">
+                                <span>
+                                    Pesan Sekarang
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <div class="items-body-content-link text-center">
+                                <span>
+                                    Batalkan
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pendirian PT + Virtual Office -->
+<div class="modal fade" id="pendirian_pt_vo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="container modal_product">
+                <div class="items_modal">
+                    <div class="items-head_product">
+                        <p>Pendirian PT + Virtual Office</p>
+                        <hr>
+                    </div>
+                    <div class="items-body-product">
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Pendaftaran nama perusahaan </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Akta pendirian perusahaan </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Pengesahan dari Kementerian Hukum dan Hak Asasi Manusia </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Nomor Pokok Wajib Pajak (NPWP) perusahaan </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>SKT (Surat Keterangan Terdaftar) </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>NIB & Sertifikat Standar* (jika ada) </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>dan semua fitur lengkap Virtual Office</span>
+                        </div>
+                        <hr>
+                        <p>
+                            Bonus *
+                            <br>
+                            <small class="smaller_font">
+                                Dapatkan bonus menarik serta potongan harga jika Anda membeli paket pendirian PT +
+                                Virtual Office
+                            </small>
+                        </p>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Hemat IDR 600.000, jika membeli paket pendirian PT + Virtual Office</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Free tambahan 2 bulan sewa Virtual Office</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span> Free tambahan 5 jam/bulan<br>
+                                (meeting room/workspace/livestreaming studio)
+                            </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Free rekening perusahaan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Free Efin perusahaan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Free izin API-U & Hak Akses Kepabeanan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Surat domisili gedung</span>
+                        </div>
+                        <a href="https://wa.link/fqa8g0">
+                            <div class="items-body-content-link button_pesan">
+                                <span>
+                                    Pesan Sekarang
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <div class="items-body-content-link text-center">
+                                <span>
+                                    Batalkan
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Pendirian cv -->
+<div class="modal fade" id="pendirian_cv" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="container modal_product">
+                <div class="items_modal">
+                    <div class="items-head_product">
+                        <p>Pendirian CV</p>
+                        <hr>
+                    </div>
+                    <div class="items-body-product">
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Pendaftaran nama perusahaan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Akta pendirian perusahaan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Pengesahan dari Kementerian Hukum dan Hak Asasi Manusia</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Nomor Pokok Wajib Pajak (NPWP) perusahaan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>SKT (Surat Keterangan Terdaftar)</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>NIB & Sertifikat Standar* (jika ada)</span>
+                        </div>
+                        <a href="https://wa.link/1fibq9">
+                            <div class="items-body-content-link button_pesan">
+                                <span>
+                                    Pesan Sekarang
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <div class="items-body-content-link text-center">
+                                <span>
+                                    Batalkan
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Pendirian CV + Virtual Office -->
+<div class="modal fade" id="pendirian_cv_vo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="container modal_product">
+                <div class="items_modal">
+                    <div class="items-head_product">
+                        <p>Pendirian CV + Virtual Office</p>
+                        <hr>
+                    </div>
+                    <div class="items-body-product">
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Pendaftaran nama perusahaan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Akta pendirian perusahaan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Pengesahan dari Kementerian Hukum dan Hak Asasi Manusia</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Nomor Pokok Wajib Pajak (NPWP) perusahaan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>SKT (Surat Keterangan Terdaftar)</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>NIB & Sertifikat Standar* (jika ada)</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>dan semua fitur lengkap Virtual Office</span>
+                        </div>
+                        <hr>
+                        <p>
+                            Bonus *
+                            <br>
+                            <small class="smaller_font">
+                                Dapatkan bonus menarik serta potongan harga jika Anda membeli paket pendirian CV +
+                                Virtual Office
+                            </small>
+                        </p>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Hemat IDR 900.000, jika membeli paket pendirian CV + Virtual Office</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Free tambahan 2 bulan sewa Virtual Office</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span> Free tambahan 5 jam/bulan <br>
+                                (meeting room/workspace/livestreaming studio)
+                            </span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Free rekening perusahaan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Free Efin perusahaan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Free izin API-U & Hak Akses Kepabeanan</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Surat domisili gedung</span>
+                        </div>
+                        <a href="https://wa.link/0509pr">
+                            <div class="items-body-content-link button_pesan">
+                                <span>
+                                    Pesan Sekarang
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <div class="items-body-content-link text-center">
+                                <span>
+                                    Batalkan
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Flex Space -->
+<div class="modal fade" id="flex_space" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="container modal_product">
+                <div class="items_modal">
+                    <div class="items-head_product">
+                        <p>Flex Space</p>
+                        <hr>
+                    </div>
+                    <div class="items-body-product">
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Meeting room untuk 5-10 orang, atau</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span> Workspace untuk 4 orang, atau</span>
+                        </div>
+                        <div class="items-body-content">
+                            <i class="fa fa-angle-right"></i>
+                            <span>Live streaming studio</span>
+                        </div>
+                        <a href="https://wa.link/qepniv">
+                            <div class="items-body-content-link button_pesan">
+                                <span>
+                                    Pesan Sekarang
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <div class="items-body-content-link text-center">
+                                <span>
+                                    Batalkan
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,145 @@
+<<<<<<< HEAD
+.btn-secondary {
+  border-radius: 0;
+  background-color: #fff;
+  border: none;
+  color: #30972e;
+}
+.btn-secondary:hover {
+  text-decoration: underline;
+  background-color: #fff;
+  color: #30972e;
+}
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+  background: #57af3c;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 34px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #57af3c;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    width: 50px;
+    height: 50px;
+  }
+  .back-to-top i {
+    font-size: 24px;
+  }
+}
+
+.wa-us-mobile {
+  background: linear-gradient(
+    90deg,
+    rgba(87, 175, 60, 1) 0%,
+    rgba(48, 151, 46, 1) 100%
+  );
+  color: #fff;
+}
+.wa-us-mobile .btn-wa-us-mobile {
+  background-color: rgba(1, 1, 1, 0);
+  border: #fff solid 2px;
+  color: #fff;
+  border-radius: 0;
+}
+.wa-us-mobile .btn-wa-us-mobile:hover {
+  background-color: #fff;
+  border: none;
+  color: rgba(87, 175, 60, 1);
+  border-radius: 0;
+}
+=======
+.btn-secondary {
+  border-radius: 0;
+  background-color: #fff;
+  border: none;
+  color: #30972e;
+}
+.btn-secondary:hover {
+  text-decoration: underline;
+  background-color: #fff;
+  color: #30972e;
+}
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+  background: #57af3c;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 34px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #57af3c;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    width: 50px;
+    height: 50px;
+  }
+  .back-to-top i {
+    font-size: 24px;
+  }
+}
+
+.wa-us-mobile {
+  background: linear-gradient(
+    90deg,
+    rgba(87, 175, 60, 1) 0%,
+    rgba(48, 151, 46, 1) 100%
+  );
+  color: #fff;
+}
+.wa-us-mobile .btn-wa-us-mobile {
+  background-color: rgba(1, 1, 1, 0);
+  border: #fff solid 2px;
+  color: #fff;
+  border-radius: 0;
+}
+.wa-us-mobile .btn-wa-us-mobile:hover {
+  background-color: #fff;
+  border: none;
+  color: rgba(87, 175, 60, 1);
+  border-radius: 0;
+}
+>>>>>>> 74fb2cee (update)

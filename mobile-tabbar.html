@@ -1,0 +1,334 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+<style>
+  :root {
+    --color1: #0D6B68;
+    --paragraph: #070C1F;
+    --background: #F0F0F0;
+  }
+
+  .items_modal {
+    background: #fffffe;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-top: 10px solid #0D6B68;
+    width: -webkit-fill-available;
+  }
+
+  .items-body-content {
+    padding: 10px;
+    padding-right: 0px;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    font-size: 13px;
+    grid-gap: 10px;
+    font-weight: bolder;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+
+  @media (min-width:767px) {
+    .mobilebar-container {
+      display: none;
+    }
+  }
+
+  .mobilebar-container {
+    position: fixed;
+    bottom: 15px;
+    z-index: 12;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .mobilebar-tab {
+    height: 50px;
+    max-width: 420px;
+    width: 90vw;
+    background-color: #fff;
+    /* box-shadow: 0 10px 6px 0 rgba(0, 0, 0, 0.175); */
+    /* border-radius: 6px; */
+    overflow: hidden;
+    /* border: 10px solid #fff; */
+    display: flex;
+    position: relative;
+    flex-shrink: 0;
+    bottom: 0px;
+  }
+
+  .mobilebar-tab-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 5);
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    z-index: 2;
+  }
+
+  .mobilebar-tab-item.active {
+    /* width: 105px;
+    width: 16vw;
+    width: calc(100% / 5);
+    max-width: 105px; */
+  }
+
+  .mobilebar-tab-overlay {
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    height: 100%;
+    width: calc(100% / 5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+  }
+
+  .mobilebar-tab__icon {
+    display: block;
+    color: var(--color1);
+    transition-duration: 0.3s;
+    line-height: 1;
+  }
+
+  .mobilebar-tab__icon span {
+    font-size: 8px;
+    display: inherit;
+    margin-top: 5px;
+    margin-right: -5px;
+  }
+
+  .mobilebar-tab-item.mobilebar-center {
+    background-color: #0D6B68;
+    border-radius: 20px;
+  }
+
+  .dropdown-btn {
+    font-weight: bold;
+    font-size: 13px;
+    color: var(--color1);
+    text-decoration: none;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  .dropdown-container {
+    display: none;
+    padding-left: 8px;
+    width: 4rem;
+  }
+
+  .dropdown-container a {
+    /* margin-top: 20px; */
+    margin-top: 20px;
+    display: flex;
+    width: 30rem;
+  }
+</style>
+
+<div class="mobilebar-container mobile-layout">
+  <div style="box-shadow: 0 10px 6px 0 rgba(0, 0, 0, 0.175);border-radius: 6px;border: 10px solid #fff;">
+    <nav class="mobilebar-tab">
+
+
+      <div id="applicationBarMobileButton1" class="mobilebar-tab-item active">
+        <a href="index.php">
+          <span class="mobilebar-tab__icon">
+            <i class="fa-solid fa-house-fire"></i>
+            <span>Home</span>
+          </span>
+        </a>
+      </div>
+
+      <div class="mobilebar-tab-item active-about">
+        <a href="about.php">
+          <span class="mobilebar-tab__icon">
+            <i class="fa-solid fa-eject"></i>
+            <span>About</span>
+          </span>
+        </a>
+      </div>
+
+      <div class="mobilebar-tab-item mobilebar-center">
+        <a type="button" href="#" data-toggle="modal" data-target="#mobile-menu">
+          <span class="mobilebar-tab__icon">
+            <i class="fa-solid fa-bars" style="color: #fff;"></i>
+          </span>
+        </a>
+      </div>
+
+      <div class="mobilebar-tab-item active-promo">
+        <a href="promo.php">
+          <span class="mobilebar-tab__icon">
+            <i class="fa-solid fa-receipt"></i>
+            <span>Promo</span>
+          </span>
+        </a>
+      </div>
+
+      <div class="mobilebar-tab-item">
+        <a href="https://spaze.id/blog/">
+          <span class="mobilebar-tab__icon">
+            <i class="fa-brands fa-blogger-b"></i>
+            <span>Blog</span>
+          </span>
+        </a>
+      </div>
+
+      <div class="mobilebar-tab-overlay"></div>
+    </nav>
+  </div>
+
+</div>
+
+<!-- Modal Menu -->
+<div class="modal fade" id="mobile-menu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="container modal_product">
+        <div class="items_modal">
+          <div class="items-head_product">
+            <p>Menu <span class="block-spaze">
+                Spaze
+              </span>
+            </p>
+            <hr>
+          </div>
+          <div class="items-body-product">
+            <div class="items-body-content">
+              <i class="fa fa-angle-right"></i>
+              <a href="index.php">
+                <span>Beranda</span>
+              </a>
+            </div>
+            <div class="items-body-content">
+              <i class="fa fa-angle-right"></i>
+              <button class="dropdown-btn">
+                Lokasi <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-container">
+                <a href="#">
+                  Jakarta Selatan
+                  <br> (PHX Permata Hijau)
+                </a>
+                <a href="#">
+                  Jakarta Barat
+                  <br> (PHX Grogol)
+                </a>
+                <a href="#">
+                  Jakarta Pusat
+                  <br> (Pusat Mode Tanah Abang)
+                </a>
+                <a href="#">
+                  Jakarta Utara
+                  <br> (Mall Of Indonesia)
+                </a>
+                <a href="#">
+                  Bekasi
+                  <br> (SPAZE Bekasi)
+                </a>
+                <a href="#">
+                  Tangerang
+                  <br> (SPAZE Tangerang)
+                </a>
+                <a href="#">
+                  Bandung
+                  <br> (SPAZE Bandung)
+                </a>
+                <a href="#">
+                  Surabaya
+                  <br> (SPAZE Surabaya)
+                </a>
+                <a href="#">
+                  Medan
+                  <br> (SPAZE Medan)
+                </a>
+                <a href="#">
+                  Bali
+                  <br> (SPAZE Bali)
+                </a>
+              </div>
+            </div>
+            <div class="items-body-content">
+              <i class="fa fa-angle-right"></i>
+              <a href="#buynow">
+                <span>Layanan</span>
+              </a>
+            </div>
+            <div class="items-body-content">
+              <i class="fa fa-angle-right"></i>
+              <a href="promo.php">
+                <span>Promo</span>
+              </a>
+            </div>
+            <div class="items-body-content">
+              <i class="fa fa-angle-right"></i>
+              <a href="https://spaze.id/blog/">
+                <span>Blog</span>
+              </a>
+            </div>
+            <a href="#buynow">
+              <div class="items-body-content-link button_pesan">
+                <span>
+                  Beli Sekarang
+                </span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="items-body-content-link button_pesan">
+                <span>
+                  Sign in
+                </span>
+              </div>
+            </a>
+            <a href="#" type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <div class="items-body-content-link text-center">
+                <span>
+                  Tutup
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+  var i;
+
+  for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+</script>
+<script>
+  $(".mobilebar-tab-item").click(function () {
+    $(".mobilebar-tab-item").removeClass("active");
+    $(this).addClass("active");
+    $(".mobilebar-tab-overlay").css({
+      left: $(this).prevAll().length * document.getElementById('applicationBarMobileButton1').clientWidth + 'px'
+    });
+  });
+</script>

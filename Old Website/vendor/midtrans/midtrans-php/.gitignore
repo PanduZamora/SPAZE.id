@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+composer.lock
+composer.phar
+vendor/
+.idea
+=======
+composer.lock
+composer.phar
+vendor/
+.idea
+>>>>>>> 74fb2cee (update)
+.DS_STORE

@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>S P A Z E | powered by izin.co.id</title>
+
+
+
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+
+
+  <!-- Favicon -->
+
+  <link rel="shortcut icon" href="../assets/img/spaze-logo.png" type="image/x-icon">
+
+  <link href="../assets/img/spaze-logo.png" rel="apple-touch-icon">
+
+
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+
+  <!-- Vendor CSS Files -->
+
+  <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <link rel="stylesheet" href="../assets/vendor/bootstrap-icons/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="../assets/vendor/aos/aos.css">
+
+  <link rel="stylesheet" href="../assets/vendor/remixicon/remixicon.css">
+
+  <link rel="stylesheet" href="../assets/vendor/swiper/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="../assets/vendor/glightbox/css/glightbox.min.css">
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
+  <!-- template main CSS files -->
+
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+
+
+  <!-- Google Tag Manager -->
+
+  <script>
+    (function(w, d, s, l, i) {
+
+      w[l] = w[l] || [];
+
+      w[l].push({
+
+        'gtm.start': new Date().getTime(),
+
+        event: 'gtm.js'
+
+      });
+
+      var f = d.getElementsByTagName(s)[0],
+
+        j = d.createElement(s),
+
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+
+      j.async = true;
+
+      j.src =
+
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+
+      f.parentNode.insertBefore(j, f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-W23378V');
+  </script>
+
+  <!-- End Google Tag Manager -->
+
+
+
+  <style>
+    .btn-secondary {
+
+      border-radius: 0;
+
+      background-color: #fff;
+
+      border: solid #30972e 2px;
+
+      color: #30972e;
+
+    }
+
+
+
+    .btn-secondary:hover {
+
+      text-decoration: underline;
+
+      background-color: #fff;
+
+      color: #30972e;
+
+    }
+
+
+
+    .back-to-top {
+
+      position: fixed;
+
+      visibility: hidden;
+
+      opacity: 0;
+
+      right: 15px;
+
+      bottom: 15px;
+
+      z-index: 99999;
+
+      background: #57af3c;
+
+      width: 64px;
+
+      height: 64px;
+
+      border-radius: 50%;
+
+      transition: all 0.4s;
+
+    }
+
+
+
+    .back-to-top i {
+
+      font-size: 34px;
+
+      color: #fff;
+
+      line-height: 0;
+
+    }
+
+
+
+    .back-to-top:hover {
+
+      background: #57af3c;
+
+      color: #fff;
+
+    }
+
+
+
+    .back-to-top.active {
+
+      visibility: visible;
+
+      opacity: 1;
+
+    }
+
+
+
+    @media (max-width: 768px) {
+
+      .back-to-top {
+
+        width: 50px;
+
+        height: 50px;
+
+      }
+
+
+
+      .back-to-top i {
+
+        font-size: 24px;
+
+      }
+
+    }
+
+
+
+    .wa-us-mobile {
+
+      background: linear-gradient(90deg,
+
+          rgba(87, 175, 60, 1) 0%,
+
+          rgba(48, 151, 46, 1) 100%);
+
+      color: #fff;
+
+    }
+
+
+
+    .wa-us-mobile .btn-wa-us-mobile {
+
+      background-color: #fff;
+
+      border: #fff solid 2px;
+
+      color: rgba(87, 175, 60, 1);
+
+      border-radius: 0;
+
+      font-weight: 600;
+
+    }
+
+
+
+    .wa-us-mobile .btn-wa-us-mobile:hover {
+
+      background-color: #fff;
+
+      border: none;
+
+      color: rgba(87, 175, 60, 1);
+
+      border-radius: 0;
+
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header id="header" class="header">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+        <a href="../index.php" class="logo d-flex align-items-center">
+            <img src="../assets/img/spaze-logo.webp" alt="SPAZE">
+        </a>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="../index.php#headline">Beranda</a></li>
+                <li><a class="nav-link scrollto" href="../index.php#about">Tentang</a></li>
+                <li><a class="nav-link scrollto" href="../index.php#services">Mengapa SPAZE?</a></li>
+                <li><a class="nav-link scrollto" href="../index.php#step">Cara Kerja</a></li>
+                <li><a class="nav-link scrollto" href="../index.php#member">Keuntungan</a></li>
+                <li><a href="../index.php#product" class="nav-link scrollto">Produk</a></li>
+                <li><a class="getstarted scrollto" href="https://bit.ly/spazeid" target="_blank">Hubungi Kami</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../assets/img/indonesia.png" alt="en" style="width: 20px;">
+                        <span>Language</span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="lang">
+                        <li><a class="dropdown-item" href="#"> <img src="../assets/img/indonesia.png"
+                                    height="20px" alt="id">Bahasa Indonesia</a></li>
+                        <li><a class="dropdown-item" href="../index-en.php"> <img src="../assets/img/us.png" height="20px"
+                                    alt="en-us">English-US</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+    </div>
+  </header>
+
+<!-- ======= Values Desktop Section ============ -->
+
+<section id="services" class="values">
+
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header">
+
+        <h2>Kenapa Memilih SPAZE?</h2>
+
+      </header>
+
+
+
+      <div class="row d-flex justify-content-center">
+
+        <div class="col-md-3" data-aos="fade-right" data-aos-delay="200">
+
+          <div class="box">
+
+            <img src="../assets/img/flexible-work.png" class="card-img-top" alt="box-img">
+
+            <div class="card-body">
+
+              <h5 class="card-title bold">Fleksibel</h5>
+
+              <p class="card-text">Pilih untuk bekerja di kantor kami hari ini atau bekerja dari mana saja besok! Apapun suasana yang
+
+                Anda cari, kami memiliki spaze!</p>
+
+              <!-- <a href="#" class="card-link">read more</a> -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-md-3" data-aos="fade-right" data-aos-delay="300">
+
+          <div class="box">
+
+            <img src="../assets/img/cost.png" class="card-img-top" alt="box-img">
+
+            <div class="card-body">
+
+              <h5 class="card-title bold">Hemat Biaya</h5>
+
+              <p class="card-text">Spaze dirancang untuk memenuhi kebutuhan Anda dengan menawarkan berbagai pilihan
+
+                keanggotaan yang fleksibel. Paket keanggotaan fleksibel<span id="dots1">...</span>
+
+              <div class="collapse" id="boxCollapse1">, koneksi internet berkecepatan tinggi,
+
+                ruang pertemuan, dan layanan resepsionis berarti penghematan biaya bagi Anda. Anda dapat
+
+                menggunakan dana untuk mengembangkan bisnis Anda.</div>
+
+              </p>
+
+              <a type="button" class="card-link" id="btnCollapse1" data-bs-toggle="collapse" data-bs-target="#boxCollapse1" onclick="dots1()">read more</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-md-3" data-aos="fade-right" data-aos-delay="400">
+
+          <div class="box">
+
+            <img src="../assets/img/legal.png" style="transform: scale(1);" class="card-img-top" alt="box-img">
+
+            <div class="card-body">
+
+              <h5 class="card-title bold">Layanan Hukum</h5>
+
+              <p class="card-text">Berpengalaman dengan hukum bisnis, Spaze memastikan agar Anda aman dalam memulai bisnis.
+
+                Spaze dapat membantu Anda dalam mendirikan bisnis,<span id="dots2">...</span>
+
+              <div class="collapse" id="boxCollapse2"> mulai dari alamat kantor resmi, pendirian
+
+                perusahaan, izin usaha, perpajakan, dan pendaftaran kekayaan intelektual. Spaze menawarkan
+
+                layanan konsultasi hukum gratis bagi setiap permasalahan hukum Anda.</div>
+
+              </p>
+
+              <a type="button" class="card-link" id="btnCollapse2" data-bs-toggle="collapse" data-bs-target="#boxCollapse2" onclick="dots2()">read more</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="row d-flex justify-content-center mt-4">
+
+        <div class="col-md-3" data-aos="fade-right" data-aos-delay="200">
+
+          <div class="box">
+
+            <img src="../assets/img/pkp.png" class="card-img-top" alt="box-img">
+
+            <div class="card-body">
+
+              <h5 class="card-title bold">Pengurusan PKP (Pengusaha Kena Pajak)</h5>
+
+              <p class="card-text">Bermanfaat untuk citra perusahaan Anda dan meningkatkan peluang kerjasama bisnis dengan pemerintah.</p>
+
+              <!-- <a href="#" class="card-link">read more</a> -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-md-3">
+
+          <div class="box" data-aos="fade-right" data-aos-delay="300">
+
+            <img src="../assets/img/easy-payment.png" class="card-img-top" alt="box-img">
+
+            <div class="card-body">
+
+              <h5 class="card-title bold">Sistem Pembayaran yang Mudah</h5>
+
+              <p class="card-text">Tidak perlu khawatir, kami menawarkan beberapa opsi pembayaran yang sesuai dengan usaha Anda.</p>
+
+              <!-- <a href="#" class="card-link">read more</a> -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-md-3">
+
+          <div class="box" data-aos="fade-right" data-aos-delay="400">
+
+            <img src="../assets/img/eco-office.png" class="card-img-top" alt="box-img">
+
+            <div class="card-body">
+
+              <h5 class="card-title bold">Kantor Ramah Lingkungan</h5>
+
+              <p class="card-text">Tidak seperti kantor konvensional, kantor ramah lingkungan menciptakan lingkungan yang lebih
+
+                sehat.<span id="dots3">...</span>
+
+              <div class="collapse" id="boxCollapse3">Menawarkan ruang hijau dan sistem perkantoran digital untuk mengurangi limbah. Kami juga menawarkan ruang terbuka bagi Anda untuk menikmati kehijauan sambil bekerja.</div>
+
+              </p>
+
+              <a type="button" class="card-link" id="btnCollapse3" data-bs-toggle="collapse" data-bs-target="#boxCollapse3" onclick="dots3()">read more</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-md-3">
+
+          <div class="box" data-aos="fade-right" data-aos-delay="500">
+
+            <img src="../assets/img/live.png" class="card-img-top" alt="box-img">
+
+            <div class="card-body">
+
+              <h5 class="card-title bold">Live Streaming Studio</h5>
+
+              <p class="card-text">Ruang studio multifungsi dengan fasilitas dan peralatan perekaman lengkap yang dapat digunakan sebagai ruang<span class="collapse show" id="dots4">...</span>
+
+              <div class="collapse" id="boxCollapse4"> atau acara online dan sangat ideal untuk para profesional maupun non-professional.</div>
+
+              </p>
+
+              <a type="button" class="card-link" id="btnCollapse4" data-bs-toggle="collapse" data-bs-target="#boxCollapse4" onclick="dots4()">read more</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ======= Values Section ======= -->
+
+  <section id="servicesMobile" class="values">
+
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header">
+
+        <h2>Kenapa Memilih SPAZE?</h2>
+
+      </header>
+
+
+
+      <div class="row">
+
+        <div class="col-lg-4">
+
+          <div class="box" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="text-center">
+
+              <img src="../assets/img/flexible-work.png" class="img-fluid" alt="">
+
+            </div>
+
+
+
+            <h3 class="text-center">Flexible Space</h3>
+
+
+
+            <p class="text-justify">Choose to work at our office today or work from anywhere tomorrow.. Whatever ambience you are looking for, we have the spaze!</p>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-4 mt-4 mt-lg-0">
+
+          <div class="box" data-aos="fade-up" data-aos-delay="400">
+
+            <div class="text-center">
+
+              <img src="../assets/img/cost.png" class="img-fluid" alt="">
+
+            </div>
+
+
+
+            <h3 class="text-center">Hemat Biaya</h3>
+
+
+
+            <p class="text-justify">Spaze is designed to suit our members need, offering a wide range of flexible membership options.
+
+              Our flexible membership packages, high-speed internet connection, pay-per-use meeting rooms and concierge
+
+              services mean cost savings for you. You can use your funds to grow your business..</p>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-4 mt-4 mt-lg-0">
+
+          <div class="box" data-aos="fade-up" data-aos-delay="600">
+
+            <div class="text-center">
+
+              <img src="../assets/img/legal.png" class="img-fluid" alt="">
+
+            </div>
+
+
+
+            <h3 class="text-center">Legal</h3>
+
+
+
+            <p class="text-justify">Experienced with business law, Spaze has a legal place so we can ensure you are safe in starting your business.
+
+              Spaze can support you in mulai dari alamat kantor resmi, pendirian
+
+perusahaan, izin usaha, perpajakan, dan pendaftaran kekayaan intelektual. Spaze menawarkan
+
+layanan konsultasi hukum gratis bagi setiap permasalahan hukum Anda.
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="row d-flex justify-content-center bottom-services">
+
+        <div class="col-lg-4 mt-4 mt-lg-0 mr-2">
+
+          <div class="box" data-aos="fade-up" data-aos-delay="600">
+
+            <div class="text-center">
+
+              <img src="../assets/img/pkp.png" class="img-fluid" alt="pkp">
+
+            </div>
+
+
+
+            <h3 class="text-center">PKP Management</h3>
+
+
+
+            <p class="text-justify">pemerintah. pemerintah.</p>
+
+
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-4 mt-4 mt-lg-0 mr-2">
+
+          <div class="box" data-aos="fade-up" data-aos-delay="600">
+
+            <div class="text-center">
+
+              <img src="../assets/img/easy-payment.png" class="img-fluid" alt="">
+
+            </div>
+
+
+
+            <h3 class="text-center">Easy Payment System</h3>
+
+
+
+            <p class="text-justify">Anda. Anda.</p>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-4 mt-4 mt-lg-0 ml-2">
+
+          <div class="box" data-aos="fade-up" data-aos-delay="600">
+
+            <div class="text-center">
+
+              <img src="../assets/img/eco-office.png" class="img-fluid" alt="">
+
+            </div>
+
+
+
+            <h3 class="text-center">Eco Friendly Office</h3>
+
+
+
+            <p class="text-justify">Unlike conventional offices, green offices create a more mindful environment for the people that occupy the workplace.
+
+              Offering menawarkan ruang terbuka bagi Anda untuk menikmati kehijauan sambil bekerja. menawarkan ruang terbuka bagi Anda untuk menikmati kehijauan sambil bekerja.
+
+            </p>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-4 mt-4 mt-lg-0 ml-2">
+
+          <div class="box" data-aos="fade-up" data-aos-delay="600">
+
+            <div class="text-center">
+
+              <img src="../assets/img/live.png" class="img-fluid" alt="live studio">
+
+            </div>
+
+
+
+            <h3 class="text-center">Live Streaming Studio</h3>
+
+
+
+            <p class="text-justify">Ruang studio multifungsi dengan fasilitas dan peralatan perekaman lengkap yang dapat digunakan
+
+
+
+sebagai ruang podcast atau acara profesional.professional.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="wa-us-mobile mt-5 py-5">
+
+      <div class="container text-center">
+
+        <h3 class="text-center mb-4 h1">Any Question? <br> Chat us via Whatsapp</h3>
+
+        <a class="btn btn-lg btn-wa-us-mobile" href="https://bit.ly/spazeid"><i class="bi bi-whatsapp"></i> 0813 1212 0557</a>
+
+      </div>
+
+    </div>
+
+  </section><!-- End Values Section -->
+
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-12 footer-info">
+                    <a href="../index.html" class="logo d-flex align-items-center">
+                        <img src="../assets/img/spaze-logo.webp" alt="Spaze Logo">
+                    </a>
+                    <p>Spaze is designed in a friendly environment to provide a welcoming experience everyday. Our
+                        mission is to make Spaze a place in which enterprising companies of all sizes can thrive.
+                        Whatever your business is, Spaze is the right place for you.<br><br>
+  
+                        WORK - <i class="spaze">SPAZE</i> - INSPIRE<br>
+                        <div class="social-links mt-3">
+                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
+                            <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
+                        </div>
+                </div>
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Why choose us?</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">How it works?</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+  
+                <div class="col-lg-6 col-md-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        <strong class="strong-footer">Cabang Grogol</strong><br>
+                        Jl. Dr. Susilo Raya No.342, RT.5/RW.5, Grogol, Kec. Grogol petamburan, Kota Jakarta Barat,
+                        Daerah Khusus Ibukota Jakarta 11450<br><br>
+  
+                        <strong class="strong-footer">Cabang Permata Hijau</strong><br>
+  
+                        Jl. Arteri Permata Hijau No.5, RT.2/RW.10, Grogol Utara, Kec. Kby. Lama, Kota Jakarta Selatan,
+                        Daerah Khusus Ibukota Jakarta 12240 <br><br>
+  
+                        <strong>Phone:</strong> +6221 - 29557557<br>
+                        <strong>WhatsApp:</strong> <a href="https://bit.ly/spazeid">+62813 1212 0557</a> <br>
+                        <strong>Email:</strong> <a href="mailto:cs@spaze.id">cs@spaze.id</a><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+  <a href="https://bit.ly/spazeid" target="_blank" class="back-to-top d-flex align-items-center justify-content-center active"><i class="bi bi-whatsapp"></i></a>
+
+
+
+  <!-- Vendor JS Files -->
+
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+
+  <script src="../assets/vendor/aos/aos.js"></script>
+
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <script src="../assets/vendor/purecounter/purecounter.js"></script>
+
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+
+
+  <!-- Template Main JS Files -->
+
+  <script src="../assets/js/main.js"></script>
+
+  <script src="../assets/js/readmore.js"></script>
+
+
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+
+      allowTouchMove: false,
+
+      autoHeight: true,
+
+      navigation: {
+
+        nextEl: ".swiper-button-next",
+
+        prevEl: ".swiper-button-prev",
+
+      },
+
+    });
+
+
+
+    $(document).ready(function() {
+
+      $("#submitContactUs").click(function() {
+
+        $("#submitContactUs").attr("disabled", "disabled");
+
+        $("#submitContactUs").html("loading...");
+
+
+
+        $.ajax({
+
+          type: "post",
+
+          url: "notification/contact-form.php",
+
+          data: $("#formContactUs").serialize(),
+
+          success: function(responses) {
+
+            alert("Your message sent successfully, please wait our team to responses you message.");
+
+            $("#submitContactUs").removeAttr("disabled");
+
+            $("#submitContactUs").html("success");
+
+          }
+
+        });
+
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>

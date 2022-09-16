@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+image: bradrydzewski/php:5.5
+script:
+  - echo "Hello World"
+notify:
+  email:
+    recipients:
+=======
+image: bradrydzewski/php:5.5
+script:
+  - echo "Hello World"
+notify:
+  email:
+    recipients:
+>>>>>>> 74fb2cee (update)
+      - radityo.shaddiqa@veritrans.co.id

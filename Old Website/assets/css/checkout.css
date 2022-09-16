@@ -1,0 +1,189 @@
+<<<<<<< HEAD
+/*  Base Color = #5CDB95 / #46bb7a
+    Accent Color = #05386B
+    Secondary Color = #8EE4AF
+    Tertier Color = #379683
+    White = #EDF5E1
+    Text = #1D1D1F
+    secondary text = 
+    danger = #D1193E*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #1d1d1f;
+}
+
+/* edit bootstrap things */
+.form-text {
+  font-size: 0.8em;
+}
+
+.btn-primary {
+  background-color: #30972e;
+  border-color: #30972e;
+  border-radius: 0;
+}
+
+.btn-primary:hover {
+  background-color: #005500;
+  border-color: #005500;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: #8c99a5;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
+  color: #d1193e;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.small-label {
+  font-size: 0.9em;
+}
+
+i.ri {
+  vertical-align: bottom;
+}
+
+header.header {
+  background: linear-gradient(
+    90deg,
+    rgba(87, 175, 60, 1) 0%,
+    rgba(48, 151, 46, 1) 100%
+  );
+}
+
+.header h1 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.header .logo img {
+  max-height: 64px;
+}
+
+.main-container {
+  margin-top: 30px;
+}
+
+@media (max-width: 576px) {
+  .header .container-fluid {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .header .container-fluid h1 {
+    display: none;
+  }
+}
+=======
+/*  Base Color = #5CDB95 / #46bb7a
+    Accent Color = #05386B
+    Secondary Color = #8EE4AF
+    Tertier Color = #379683
+    White = #EDF5E1
+    Text = #1D1D1F
+    secondary text = 
+    danger = #D1193E*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #1d1d1f;
+}
+
+/* edit bootstrap things */
+.form-text {
+  font-size: 0.8em;
+}
+
+.btn-primary {
+  background-color: #30972e;
+  border-color: #30972e;
+  border-radius: 0;
+}
+
+.btn-primary:hover {
+  background-color: #005500;
+  border-color: #005500;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: #8c99a5;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
+  color: #d1193e;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.small-label {
+  font-size: 0.9em;
+}
+
+i.ri {
+  vertical-align: bottom;
+}
+
+header.header {
+  background: linear-gradient(
+    90deg,
+    rgba(87, 175, 60, 1) 0%,
+    rgba(48, 151, 46, 1) 100%
+  );
+}
+
+.header h1 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.header .logo img {
+  max-height: 64px;
+}
+
+.main-container {
+  margin-top: 30px;
+}
+
+@media (max-width: 576px) {
+  .header .container-fluid {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .header .container-fluid h1 {
+    display: none;
+  }
+}
+>>>>>>> 74fb2cee (update)
