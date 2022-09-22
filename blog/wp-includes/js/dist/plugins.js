@@ -265,11 +265,7 @@ var memize_default = /*#__PURE__*/__webpack_require__.n(memize);
 var external_wp_hooks_namespaceObject = window["wp"]["hooks"];
 ;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
 function _extends() {
-<<<<<<< HEAD
-  _extends = Object.assign || function (target) {
-=======
   _extends = Object.assign ? Object.assign.bind() : function (target) {
->>>>>>> 74fb2cee (update)
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i];
 
@@ -282,10 +278,6 @@ function _extends() {
 
     return target;
   };
-<<<<<<< HEAD
-
-=======
->>>>>>> 74fb2cee (update)
   return _extends.apply(this, arguments);
 }
 ;// CONCATENATED MODULE: external ["wp","compose"]

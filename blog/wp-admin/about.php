@@ -37,8 +37,6 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 			</nav>
 		</div>
 
-<<<<<<< HEAD
-=======
 		<div class="about__section changelog">
 			<div class="column">
 				<h2><?php _e( 'Maintenance and Security Releases' ); ?></h2>
@@ -95,7 +93,6 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 			</div>
 		</div>
 
->>>>>>> 74fb2cee (update)
 		<div class="about__section">
 			<div class="column">
 				<h2 class="aligncenter">
@@ -265,17 +262,10 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 			</div>
 			<div class="column">
 				<div class="about__image aligncenter">
-<<<<<<< HEAD
-					<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-						<circle cx="20.5" cy="20" r="12" fill="#fff"/>
-						<circle cx="20.5" cy="20" r="12" fill="url(#a)"/>
-						<circle cx="20.5" cy="20" r="12" stroke="#1E1E1E" stroke-width="2"/>
-=======
 					<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<circle cx="16" cy="16" r="12" fill="#fff"/>
 						<circle cx="16" cy="16" r="12" fill="url(#a)"/>
 						<circle cx="16" cy="16" r="12" stroke="#1E1E1E" stroke-width="2"/>
->>>>>>> 74fb2cee (update)
 						<defs>
 							<pattern id="a" patternContentUnits="objectBoundingBox" width=".385" height=".385">
 								<use xlink:href="#b" transform="scale(.01923)"/>
@@ -322,11 +312,7 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 		<div class="about__section has-2-columns is-wider-right">
 			<div class="column about__image is-vertically-aligned-top">
 				<a href="https://www.youtube.com/watch?v=oe452WcY7fA">
-<<<<<<< HEAD
-					<img src="https://s.w.org/images/core/6.0/about-60-video.png" alt="<?php echo esc_attr( __( 'Exploring WordPress 6.0 video' ) ); ?>" />
-=======
 					<img src="https://s.w.org/images/core/6.0/about-60-video.png?ver=6.0" alt="<?php echo esc_attr( __( 'Exploring WordPress 6.0 video' ) ); ?>" />
->>>>>>> 74fb2cee (update)
 				</a>
 			</div>
 			<div class="column">

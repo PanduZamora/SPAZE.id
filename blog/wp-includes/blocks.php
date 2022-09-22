@@ -286,10 +286,7 @@ function register_block_type_from_metadata( $file_or_folder, $args = array() ) {
 		'title'           => 'title',
 		'category'        => 'category',
 		'parent'          => 'parent',
-<<<<<<< HEAD
-=======
 		'ancestor'        => 'ancestor',
->>>>>>> 74fb2cee (update)
 		'icon'            => 'icon',
 		'description'     => 'description',
 		'keywords'        => 'keywords',

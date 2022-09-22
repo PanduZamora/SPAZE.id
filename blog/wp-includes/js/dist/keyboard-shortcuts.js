@@ -719,11 +719,7 @@ function useShortcut(name, callback) {
 
 ;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
 function _extends() {
-<<<<<<< HEAD
-  _extends = Object.assign || function (target) {
-=======
   _extends = Object.assign ? Object.assign.bind() : function (target) {
->>>>>>> 74fb2cee (update)
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i];
 
@@ -736,10 +732,6 @@ function _extends() {
 
     return target;
   };
-<<<<<<< HEAD
-
-=======
->>>>>>> 74fb2cee (update)
   return _extends.apply(this, arguments);
 }
 ;// CONCATENATED MODULE: ./node_modules/@wordpress/keyboard-shortcuts/build-module/components/shortcut-provider.js

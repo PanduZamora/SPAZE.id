@@ -19,44 +19,26 @@ function render_block_core_query_no_results( $attributes, $content, $block ) {
 		return '';
 	}
 
-<<<<<<< HEAD
-	$page_key   = isset( $block->context['queryId'] ) ? 'query-' . $block->context['queryId'] . '-page' : 'query-page';
-	$page       = empty( $_GET[ $page_key ] ) ? 1 : (int) $_GET[ $page_key ];
-	$query_args = build_query_vars_from_query_block( $block, $page );
-=======
 	$page_key = isset( $block->context['queryId'] ) ? 'query-' . $block->context['queryId'] . '-page' : 'query-page';
 	$page     = empty( $_GET[ $page_key ] ) ? 1 : (int) $_GET[ $page_key ];
 
->>>>>>> 74fb2cee (update)
 	// Override the custom query with the global query if needed.
 	$use_global_query = ( isset( $block->context['query']['inherit'] ) && $block->context['query']['inherit'] );
 	if ( $use_global_query ) {
 		global $wp_query;
-<<<<<<< HEAD
-		if ( $wp_query && isset( $wp_query->query_vars ) && is_array( $wp_query->query_vars ) ) {
-			$query_args = wp_parse_args( $wp_query->query_vars, $query_args );
-		}
-	}
-	$query = new WP_Query( $query_args );
-=======
 		$query = $wp_query;
 	} else {
 		$query_args = build_query_vars_from_query_block( $block, $page );
 		$query      = new WP_Query( $query_args );
 	}
->>>>>>> 74fb2cee (update)
 
 	if ( $query->have_posts() ) {
 		return '';
 	}
 
-<<<<<<< HEAD
-	wp_reset_postdata();
-=======
 	if ( ! $use_global_query ) {
 		wp_reset_postdata();
 	}
->>>>>>> 74fb2cee (update)
 
 	return sprintf(
 		'<div %1$s>%2$s</div>',

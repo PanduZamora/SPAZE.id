@@ -2063,10 +2063,7 @@ function set_site_transient( $transient, $value, $expiration = 0 ) {
  * does not encompass all settings available in WordPress.
  *
  * @since 4.7.0
-<<<<<<< HEAD
-=======
  * @since 6.0.1 The `show_on_front`, `page_on_front`, and `page_for_posts` options were added.
->>>>>>> 74fb2cee (update)
  */
 function register_initial_settings() {
 	register_setting(
@@ -2225,8 +2222,6 @@ function register_initial_settings() {
 	);
 
 	register_setting(
-<<<<<<< HEAD
-=======
 		'reading',
 		'show_on_front',
 		array(
@@ -2257,7 +2252,6 @@ function register_initial_settings() {
 	);
 
 	register_setting(
->>>>>>> 74fb2cee (update)
 		'discussion',
 		'default_ping_status',
 		array(

@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-
-
 <head>
 
     <meta charset="UTF-8">
@@ -99,7 +96,7 @@
 
                         <div class="col-12 col-md-4 mt-3">
                             <a href="https://bit.ly/spazeid">
-                                <img src="assets/images/promo/use/promo_virtual_office_2tahun.jpeg" alt="Promo Spaze" class="img-fluid">
+                                <img src="assets/images/promo/lebih hemat.jpeg" alt="Promo Spaze" class="img-fluid">
                             </a>
                             <a href="https://bit.ly/spazeid" class="lnk-default-promo">
                                 Dapatkan Promo <i class="la la-arrow-right"></i>

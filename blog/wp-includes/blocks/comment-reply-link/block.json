@@ -11,13 +11,6 @@
 	"attributes": {
 		"textAlign": {
 			"type": "string"
-<<<<<<< HEAD
-		},
-		"fontSize": {
-			"type": "string",
-			"default": "small"
-=======
->>>>>>> 74fb2cee (update)
 		}
 	},
 	"supports": {

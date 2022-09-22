@@ -14,13 +14,6 @@
 		"isLink": {
 			"type": "boolean",
 			"default": true
-<<<<<<< HEAD
-		},
-		"fontSize": {
-			"type": "string",
-			"default": "small"
-=======
->>>>>>> 74fb2cee (update)
 		}
 	},
 	"usesContext": [ "commentId" ],

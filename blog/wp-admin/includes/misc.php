@@ -1190,10 +1190,7 @@ function wp_refresh_post_lock( $response, $data, $screen_id ) {
 
 		if ( $user ) {
 			$error = array(
-<<<<<<< HEAD
-=======
 				'name' => $user->display_name,
->>>>>>> 74fb2cee (update)
 				/* translators: %s: User's display name. */
 				'text' => sprintf( __( '%s has taken over and is currently editing.' ), $user->display_name ),
 			);

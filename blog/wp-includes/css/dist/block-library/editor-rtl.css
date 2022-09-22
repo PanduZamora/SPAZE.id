@@ -2701,12 +2701,9 @@ div[data-type="core/post-featured-image"] img {
 .wp-block-post-comments-form * {
   pointer-events: none;
 }
-<<<<<<< HEAD
-=======
 .wp-block-post-comments-form *.block-editor-warning * {
   pointer-events: auto;
 }
->>>>>>> 74fb2cee (update)
 
 :root .editor-styles-wrapper {
   /*

@@ -3733,11 +3733,7 @@ header.sticky.header-bg nav>ul>li {
 .clients-logo img {
 	display: block;
 	margin: auto;
-<<<<<<< HEAD
-	height: 50px;
-=======
 	height: 30px;
->>>>>>> 74fb2cee (update)
 }
 
 @media (max-width:600px) {
@@ -3746,8 +3742,6 @@ header.sticky.header-bg nav>ul>li {
 		margin: auto;
 		margin-top: 3rem;
 	}
-<<<<<<< HEAD
-=======
 }
 
 /* client */
@@ -3809,5 +3803,4 @@ header.sticky.header-bg nav>ul>li {
 	border-bottom: 2px solid #3399ff;
 	width: 150px;
 	padding: 10px;
->>>>>>> 74fb2cee (update)
 }

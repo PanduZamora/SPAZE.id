@@ -44,26 +44,6 @@ function render_block_core_post_template( $attributes, $content, $block ) {
 	$page_key = isset( $block->context['queryId'] ) ? 'query-' . $block->context['queryId'] . '-page' : 'query-page';
 	$page     = empty( $_GET[ $page_key ] ) ? 1 : (int) $_GET[ $page_key ];
 
-<<<<<<< HEAD
-	$query_args = build_query_vars_from_query_block( $block, $page );
-	// Override the custom query with the global query if needed.
-	$use_global_query = ( isset( $block->context['query']['inherit'] ) && $block->context['query']['inherit'] );
-	if ( $use_global_query ) {
-		global $wp_query;
-		if ( $wp_query && isset( $wp_query->query_vars ) && is_array( $wp_query->query_vars ) ) {
-			// Unset `offset` because if is set, $wp_query overrides/ignores the paged parameter and breaks pagination.
-			unset( $query_args['offset'] );
-			$query_args = wp_parse_args( $wp_query->query_vars, $query_args );
-
-			if ( empty( $query_args['post_type'] ) && is_singular() ) {
-				$query_args['post_type'] = get_post_type( get_the_ID() );
-			}
-		}
-	}
-
-	$query = new WP_Query( $query_args );
-
-=======
 	// Use global query if needed.
 	$use_global_query = ( isset( $block->context['query']['inherit'] ) && $block->context['query']['inherit'] );
 	if ( $use_global_query ) {
@@ -74,7 +54,6 @@ function render_block_core_post_template( $attributes, $content, $block ) {
 		$query      = new WP_Query( $query_args );
 	}
 
->>>>>>> 74fb2cee (update)
 	if ( ! $query->have_posts() ) {
 		return '';
 	}
@@ -95,11 +74,6 @@ function render_block_core_post_template( $attributes, $content, $block ) {
 	$content = '';
 	while ( $query->have_posts() ) {
 		$query->the_post();
-<<<<<<< HEAD
-		$block_content = (
-			new WP_Block(
-				$block->parsed_block,
-=======
 
 		// Get an instance of the current Post Template block.
 		$block_instance = $block->parsed_block;
@@ -113,19 +87,12 @@ function render_block_core_post_template( $attributes, $content, $block ) {
 		$block_content = (
 			new WP_Block(
 				$block_instance,
->>>>>>> 74fb2cee (update)
 				array(
 					'postType' => get_post_type(),
 					'postId'   => get_the_ID(),
 				)
 			)
 		)->render( array( 'dynamic' => false ) );
-<<<<<<< HEAD
-		$post_classes  = implode( ' ', get_post_class( 'wp-block-post' ) );
-		$content      .= '<li class="' . esc_attr( $post_classes ) . '">' . $block_content . '</li>';
-	}
-
-=======
 
 		// Wrap the render inner blocks in a `li` element with the appropriate post classes.
 		$post_classes = implode( ' ', get_post_class( 'wp-block-post' ) );
@@ -137,7 +104,6 @@ function render_block_core_post_template( $attributes, $content, $block ) {
 	 * from a secondary query loop back to the main query loop.
 	 * Since we use two custom loops, it's safest to always restore.
 	*/
->>>>>>> 74fb2cee (update)
 	wp_reset_postdata();
 
 	return sprintf(

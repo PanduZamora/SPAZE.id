@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 
 	<meta charset="UTF-8">
-	<title>Virtual Office 200 ribuan per Bulan</title>
+	<title>Virtual Office 300 ribuan per Bulan</title>
 	<meta content="Virtual Office Jakarta + Jasa Pendirian PT & CV Murah hanya di Spaze.id.
 	 Hubungi Kami Segera di 0813 1212 0557" name="description">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +34,6 @@
 		}
 
 		.img-opening-promo {
-			height: 500px !important;
 			display: block;
 			margin: auto;
 			margin-top: -3rem;
@@ -68,12 +68,12 @@
 		}
 
 		button.close {
-			border: 0!important;
-			-webkit-appearance: none!important;
-			background: #fff!important;
-			border-radius: 10px!important;
-			padding: 2px!important;
-			margin-right: 1rem;
+			border: 0 !important;
+			-webkit-appearance: none !important;
+			background: #fff !important;
+			border-radius: 10px !important;
+			padding: 2px !important;
+			margin-right: -2rem;
 			z-index: 999999999;
 		}
 
@@ -127,11 +127,13 @@
 	</div> -->
 
 	<!--page-loading end-->
+
 	<div class="wrapper" id="home">
 		<section class="main-banner">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-6">
+
 						<div id="carouselExampleIndicators" class="carousel slide mb-5 d-block d-md-none wow bounceInUp" data-ride="carousel">
 							<ol class="carousel-indicators">
 								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -161,18 +163,20 @@
 								<span class="sr-only">Next</span>
 							</a>
 						</div>
+
 						<!-- <img src="assets/images/mobile_banner.png" alt="" class="img-fluid m-0 d-block d-md-none wow bounceInUp"> -->
 						<div class="banner-content">
 							<h2 class="wow fadeInUp" data-wow-duration="1000ms">
 								Layanan Virtual Office & Perizinan untuk <span>UMKM</span>
 							</h2>
-							<!-- <p class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-								dengan Virtual Office dibandingkan kantor konvensional
+							<!-- <p class="wow fadeInUp mt-5" data-wow-duration="1000ms" data-wow-delay="300ms">
+								Bagian Dari <img src="assets/images/logo/logo-dark.png" alt="">
 							</p> -->
 							<a href="#about-us" title="" class="lnk-default wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
 								Pelajari Selengkapnya <i class="la la-arrow-right"></i>
 								<span></span>
 							</a>
+
 							<!--banz-list end-->
 							<div class="clearfix"></div>
 						</div>
@@ -180,6 +184,43 @@
 					</div>
 					<div class="col-lg-6">
 						<img src="assets/images/website_banner.png" alt="" class="img-fluid banner-slider wow bounceInUp">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="mt-5">
+			<div class="container">
+				<div class="row">
+					<div id="ourclients">
+						<div class="clients-wrap">
+							<ul id="clientlogo" class="clearfix">
+								<li>
+									<img src="assets/images/logo/QUANTUM.png" alt="Logo">
+								</li>
+								<li>
+									<img src="assets/images/logo/REDDOG.png" alt="Logo">
+								</li>
+								<li>
+									<img src="assets/images/logo/UCOK-DURIAN.png" alt="Logo">
+								</li>
+								<li>
+									<img src="assets/images/logo/YELLOW-FIT.png" alt="Logo">
+								</li>
+								<li>
+									<img src="assets/images/logo/QUANTUM.png" alt="Logo">
+								</li>
+								<li>
+									<img src="assets/images/logo/REDDOG.png" alt="Logo">
+								</li>
+								<li>
+									<img src="assets/images/logo/UCOK-DURIAN.png" alt="Logo">
+								</li>
+								<li>
+									<img src="assets/images/logo/YELLOW-FIT.png" alt="Logo">
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -231,7 +272,8 @@
 								</h2>
 								<p>
 									Terletak di lokasi strategis dan komersial, Spaze menyediakan
-									layanan Virtual Office yang mempunyai konsep Smart Office.
+									layanan Virtual Office yang mempunyai konsep
+									<strong style="font-weight: bolder;">Smart Office</strong>.
 									<br><br>
 									Sebagai penyedia layanan Virtual Office, Spaze memberikan layanan
 									sewa kantor non fisik beserta dengan fasilitas kantor seperti
@@ -269,7 +311,8 @@
 						<h3 class="sub-title"> <span class="block-spaze">
 								SPAZE,
 							</span>
-							beli sekarang dan dapatkan fasilitas terbaik
+							beli sekarang dan dapatkan
+							<strong style="color: #0D6B68; font-weight: bolder;"> PROMO MENARIK</strong>
 						</h3>
 					</div>
 					<div class="membership-list row">
@@ -294,10 +337,10 @@
 									<div class="price">
 										<div>
 											<span class="nominal st1">
-												IDR 3.900.000
+												mulai dari 300 ribuan
 											</span>
 											<span class="unit st4">
-												nett
+												/bulan
 											</span>
 										</div>
 									</div>
@@ -323,20 +366,18 @@
 									</div>
 									<div class="price">
 										<div>
-											<span class="unit st4">
-												Mulai dari
-											</span>
 											<span class="nominal st1">
-												IDR 1.500.000
+												mulai dari 100 ribuan
 											</span>
 											<span class="unit st4">
-												nett
+												/bulan
 											</span>
 										</div>
 									</div>
 								</div>
 							</button>
 						</div>
+
 						<div class="col-lg wow bounce">
 							<button type="button" class="button_product" data-toggle="modal" data-target="#pt_perorangan_vo" style="border-color: transparent; background-color: transparent;">
 								<div class="membership-item dedicated-desk">
@@ -356,10 +397,10 @@
 									<div class="price">
 										<div>
 											<span class="nominal st1">
-												IDR 6.800.000
+												mulai dari 500 ribuan
 											</span>
 											<span class="unit st4">
-												nett
+												/bulan
 											</span>
 										</div>
 									</div>
@@ -389,9 +430,11 @@
 										<!-- <div class="starts pa3">mulai dari</div> -->
 										<div>
 											<span class="nominal st1">
-												IDR 5.900.000
+												mulai dari 400 ribuan
 											</span>
-											<span class="unit st4">nett</span>
+											<span class="unit st4">
+												/bulan
+											</span>
 										</div>
 									</div>
 								</div>
@@ -424,9 +467,11 @@
 									<div class="price">
 										<!-- <div class="starts pa3">mulai dari</div> -->
 										<div>
-											<span class="nominal st1">IDR 9.200.000 </span>
+											<span class="nominal st1">
+												mulai dari 700 ribuan
+											</span>
 											<span class="unit st4">
-												nett
+												/bulan
 											</span>
 										</div>
 									</div>
@@ -455,7 +500,14 @@
 									</div>
 									<div class="price">
 										<!-- <div class="starts pa3">mulai dari</div> -->
-										<div><span class="nominal st1">IDR 4.500.000 </span><span class="unit st4">nett</span></div>
+										<div>
+											<span class="nominal st1">
+												mulai dari 300 ribuan
+											</span>
+											<span class="unit st4">
+												/bulan
+											</span>
+										</div>
 									</div>
 								</div>
 							</button>
@@ -481,7 +533,14 @@
 									</div>
 									<div class="price">
 										<!-- <div class="starts pa3">mulai dari</div> -->
-										<div><span class="nominal st1">IDR 7.700.000</span><span class="unit st4">nett</span></div>
+										<div>
+											<span class="nominal st1">
+												mulai dari 600 ribuan
+											</span>
+											<span class="unit st4">
+												/bulan
+											</span>
+										</div>
 									</div>
 								</div>
 							</button>
@@ -510,11 +569,11 @@
 										<!-- <div class="starts pa3">mulai dari</div> -->
 										<div>
 											<span class="nominal st1">
-												IDR 150.000*
+												150.000*
 											</span>
-											<!-- <span class="unit st4">
-												nett
-											</span> -->
+											<span class="unit st4">
+												/jam
+											</span>
 										</div>
 									</div>
 								</div>
@@ -637,7 +696,7 @@
 									<div class="project-info">
 										<h3>
 											<a href="portfolio-details.html" title="">
-												Work Space
+												Workspace
 											</a>
 										</h3>
 										<span>SPAZE FEATURES</span>
@@ -686,6 +745,21 @@
 					<div class="row testi-carousel">
 						<div class="col-lg-4">
 							<div class="project-item">
+								<img src="assets/images/loc/moi 1.jpg" alt="">
+								<div class="project-info">
+									<h3>
+										<a href="#" title="">
+											Mall of Indonesia
+										</a>
+									</h3>
+									<a style="color: #fff!important;" href="#" title="" class="lnk-default2 mt-3">
+										Coming Soon <i class="la la-arrow-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="project-item">
 								<img src="assets/images/loc/Pusat_mode_tanah_abang.jpg" alt="">
 								<div class="project-info">
 									<h3>
@@ -693,7 +767,7 @@
 											Pusat Mode Tanah Abang
 										</a>
 									</h3>
-									<a style="color: #fff!important;" href="#" title="" class="lnk-default2 mt-3">
+									<a style="color: #fff!important;" href="https://www.google.com/search?client=ms-android-samsung&sxsrf=ALiCzsbzcsMNWyNLZZRJi34fGSja9VEWgw:1662085454974&q=SPAZE+x+IZIN.co.id+-+Tanah+Abang&ludocid=17385403598330228413&gsas=1&client=ms-android-samsung&ibp=gwp;0,7&lsig=AB86z5VdTNmZ0RSmRqfBpxVIVkcE&kgs=93b3d405b002f291&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local" title="" class="lnk-default2 mt-3">
 										Lihat Lokasi <i class="la la-arrow-right"></i>
 									</a>
 								</div>
@@ -708,7 +782,7 @@
 											PHX Permata Hijau
 										</a>
 									</h3>
-									<a style="color: #fff!important;" href="#" title="" class="lnk-default2 mt-3">
+									<a style="color: #fff!important;" href="https://g.co/kgs/3gcb74" title="" class="lnk-default2 mt-3">
 										Lihat Lokasi <i class="la la-arrow-right"></i>
 									</a>
 								</div>
@@ -719,23 +793,8 @@
 								<img src="assets/images/loc/PHX_Grogol.jpg" alt="">
 								<div class="project-info">
 									<h3><a href="#" title="">PHX Grogol</a></h3>
-									<a style="color: #fff!important;" href="#" title="" class="lnk-default2 mt-3">
+									<a style="color: #fff!important;" href="https://www.google.com/search?client=ms-android-samsung&sxsrf=ALiCzsZdUqYlkc1-PwXHRYkilKc3fCN_2A:1662084948517&q=SPAZE+x+IZIN.co.id+-+Grogol&ludocid=8961898866009523828&gsas=1&client=ms-android-samsung&ibp=gwp;0,7&lsig=AB86z5U1v5_zZbsF16FPK2lwpTwF&kgs=a92ff76e527ceef8&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local" title="" class="lnk-default2 mt-3">
 										Lihat Lokasi <i class="la la-arrow-right"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="project-item">
-								<img src="assets/images/loc/moi 1.jpg" alt="">
-								<div class="project-info">
-									<h3>
-										<a href="#" title="">
-											Mall of Indonesia
-										</a>
-									</h3>
-									<a style="color: #fff!important;" href="#" title="" class="lnk-default2 mt-3">
-										Coming Soon <i class="la la-arrow-right"></i>
-									</a>
 								</div>
 							</div>
 						</div>
@@ -987,31 +1046,6 @@
 
 		<section class="block">
 			<div class="container">
-				<h3 class="sub-title">Klien <span style="color: #07685b;">SPAZE</span> </h3>
-				<div class="row">
-					<div class="col-md-3">
-						<div class="clients-logo">
-							<img src="assets/images/client/quantum.png" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="clients-logo">
-							<img src="assets/images/client/reddog.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="clients-logo">
-							<img src="assets/images/client/ucok-durian.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="clients-logo">
-							<img src="assets/images/client/yellow_fit.png" alt="" class="img-fluid">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container mt-5">
 				<h3 class="sub-title">Supported By</h3>
 				<div class="row">
 					<div class="col-md-3">
@@ -1121,9 +1155,7 @@
 
 
 	<!-- Whatsapp FLoat -->
-	<a href="https://bit.ly/spazeid" class="whatsapp-float link-changer " target="_blank">
-		<i class="fab fa-whatsapp my-float-whatsapp" aria-hidden="true"></i>
-	</a>
+
 
 	<a href="https://bit.ly/spazeid" target="_blank" class="back-to-top link-changer d-flex align-items-center justify-content-center active"><i class="bi bi-whatsapp"></i></a>
 
@@ -1138,7 +1170,7 @@
 				</div>
 				<div class="modal-body">
 					<a href="promo.php">
-						<img src="assets/images/promo/opening-promo.jpeg" alt="" class="img-fluid img-opening-promo">
+						<img src="assets/images/promo/Popup Website New.jpg" alt="" class="img-fluid img-opening-promo">
 					</a>
 				</div>
 			</div>
@@ -1162,6 +1194,7 @@
 			const stickyNav = document.querySelector('.sticky-nav');
 			stickyNav.classList.toggle('navbar_fixed', window.scrollY > 0);
 		});
+
 		$(window).on('load', function() {
 			$('#myModal').modal('show');
 		});
@@ -1212,6 +1245,39 @@
 			$('#wa-fb-ig7').css("display", "none");
 			console.log(field)
 		}
+	</script>
+	<script>
+		$(function() {
+			var $clientslider = $('#clientlogo');
+			var clients = $clientslider.children().length;
+			var clientwidth = (clients * 220);
+			$clientslider.css('width', clientwidth);
+			var rotating = true;
+			var clientspeed = 1800;
+			var seeclients = setInterval(rotateClients, clientspeed);
+			$(document).on({
+				mouseenter: function() {
+					rotating = false;
+				},
+				mouseleave: function() {
+					rotating = true;
+				}
+			}, '#ourclients');
+
+			function rotateClients() {
+				if (rotating != false) {
+					var $first = $('#clientlogo li:first');
+					$first.animate({
+						'margin-left': '-220px'
+					}, 2000, function() {
+						$first.remove().css({
+							'margin-left': '0px'
+						});
+						$('#clientlogo li:last').after($first);
+					});
+				}
+			}
+		});
 	</script>
 
 </body>

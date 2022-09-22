@@ -99,11 +99,7 @@
 											</button>
 										</div>
 										<center>
-<<<<<<< HEAD
 											<video width="500" height="500" controls autoplay>
-=======
-											<video width="500" height="500" controls>
->>>>>>> 74fb2cee (update)
 												<source src="assets/images/tiktok_video.mp4" type="video/mp4">
 												<source src="assets/images/tiktok_video.mp4" type="video/ogg">
 												Your browser does not support the video tag.
@@ -127,12 +123,8 @@
 					<h3 class="sub-title">Tentang <span style="color: #07685b; font-weight: bold;">SPAZE</span> </h3>
 					<p>
 						Terletak di lokasi strategis dan komersial, Spaze menyediakan
-<<<<<<< HEAD
-						layanan Virtual Office yang mempunyai konsep Smart Office.
-=======
 						layanan Virtual Office yang mempunyai konsep 
 						<strong style="font-weight: bolder;">Smart Office</strong>.
->>>>>>> 74fb2cee (update)
 						<br><br>
 						Sebagai penyedia layanan Virtual Office, Spaze memberikan layanan
 						sewa kantor non fisik beserta dengan fasilitas kantor seperti
@@ -237,11 +229,7 @@
 										<div class="excerpt">
 											Virtual Office dengan alamat strategis
 											dan komersial di Jakarta, Bekasi, Tangerang, Bandung,
-<<<<<<< HEAD
-											Surabaya, Bali dan Medan
-=======
 											Surabaya, Bali dan Medan.
->>>>>>> 74fb2cee (update)
 										</div>
 									</div>
 								</div>

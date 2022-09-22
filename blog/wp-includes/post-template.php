@@ -1088,16 +1088,10 @@ function post_custom( $key = '' ) {
  *
  * @since 1.2.0
  *
-<<<<<<< HEAD
- * @internal This will probably change at some point...
- */
-function the_meta() {
-=======
  * @deprecated 6.0.2 Use get_post_meta() to retrieve post meta and render manually.
  */
 function the_meta() {
 	_deprecated_function( __FUNCTION__, '6.0.2', 'get_post_meta()' );
->>>>>>> 74fb2cee (update)
 	$keys = get_post_custom_keys();
 	if ( $keys ) {
 		$li_html = '';
@@ -1113,13 +1107,8 @@ function the_meta() {
 			$html = sprintf(
 				"<li><span class='post-meta-key'>%s</span> %s</li>\n",
 				/* translators: %s: Post custom field name. */
-<<<<<<< HEAD
-				sprintf( _x( '%s:', 'Post custom field name' ), $key ),
-				$value
-=======
 				esc_html( sprintf( _x( '%s:', 'Post custom field name' ), $key ) ),
 				esc_html( $value )
->>>>>>> 74fb2cee (update)
 			);
 
 			/**

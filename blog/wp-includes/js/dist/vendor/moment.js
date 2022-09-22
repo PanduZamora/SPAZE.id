@@ -1,9 +1,5 @@
 //! moment.js
-<<<<<<< HEAD
-//! version : 2.29.2
-=======
 //! version : 2.29.4
->>>>>>> 74fb2cee (update)
 //! authors : Tim Wood, Iskren Chernev, Moment.js contributors
 //! license : MIT
 //! momentjs.com
@@ -2458,11 +2454,7 @@
     function preprocessRFC2822(s) {
         // Remove comments and folding whitespace and replace multiple-spaces with a single space
         return s
-<<<<<<< HEAD
-            .replace(/\([^)]*\)|[\n\t]/g, ' ')
-=======
             .replace(/\([^()]*\)|[\n\t]/g, ' ')
->>>>>>> 74fb2cee (update)
             .replace(/(\s\s+)/g, ' ')
             .replace(/^\s\s*/, '')
             .replace(/\s\s*$/, '');
@@ -5643,11 +5635,7 @@
 
     //! moment.js
 
-<<<<<<< HEAD
-    hooks.version = '2.29.2';
-=======
     hooks.version = '2.29.4';
->>>>>>> 74fb2cee (update)
 
     setHookCallback(createLocal);
 

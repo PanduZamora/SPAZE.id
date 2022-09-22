@@ -82,10 +82,7 @@ function register_core_block_types_from_metadata() {
 		'code',
 		'column',
 		'columns',
-<<<<<<< HEAD
-=======
 		'comments-query-loop',
->>>>>>> 74fb2cee (update)
 		'embed',
 		'freeform',
 		'group',

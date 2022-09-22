@@ -612,11 +612,7 @@ if ( ! empty( $invalid ) ) {
 			/* translators: 1: Plugin file, 2: Error message. */
 			__( 'The plugin %1$s has been deactivated due to an error: %2$s' ),
 			'<code>' . esc_html( $plugin_file ) . '</code>',
-<<<<<<< HEAD
-			$error->get_error_message()
-=======
 			esc_html( $error->get_error_message() )
->>>>>>> 74fb2cee (update)
 		);
 		echo '</p></div>';
 	}
@@ -680,11 +676,7 @@ elseif ( isset( $_GET['deleted'] ) ) :
 				printf(
 					/* translators: %s: Error message. */
 					__( 'Plugin could not be deleted due to an error: %s' ),
-<<<<<<< HEAD
-					$delete_result->get_error_message()
-=======
 					esc_html( $delete_result->get_error_message() )
->>>>>>> 74fb2cee (update)
 				);
 				?>
 			</p>

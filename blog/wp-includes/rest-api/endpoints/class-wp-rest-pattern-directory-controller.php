@@ -206,11 +206,7 @@ class WP_REST_Pattern_Directory_Controller extends WP_REST_Controller {
 			'title'          => sanitize_text_field( $raw_pattern->title->rendered ),
 			'content'        => wp_kses_post( $raw_pattern->pattern_content ),
 			'categories'     => array_map( 'sanitize_title', $raw_pattern->category_slugs ),
-<<<<<<< HEAD
-			'keywords'       => array_map( 'sanitize_title', $raw_pattern->keyword_slugs ),
-=======
 			'keywords'       => array_map( 'sanitize_text_field', explode( ',', $raw_pattern->meta->wpop_keywords ) ),
->>>>>>> 74fb2cee (update)
 			'description'    => sanitize_text_field( $raw_pattern->meta->wpop_description ),
 			'viewport_width' => absint( $raw_pattern->meta->wpop_viewport_width ),
 		);
@@ -278,11 +274,7 @@ class WP_REST_Pattern_Directory_Controller extends WP_REST_Controller {
 				),
 
 				'keywords'       => array(
-<<<<<<< HEAD
-					'description' => __( "The pattern's keyword slugs." ),
-=======
 					'description' => __( "The pattern's keywords." ),
->>>>>>> 74fb2cee (update)
 					'type'        => 'array',
 					'uniqueItems' => true,
 					'items'       => array( 'type' => 'string' ),

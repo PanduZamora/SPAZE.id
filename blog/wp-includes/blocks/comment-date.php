@@ -24,12 +24,6 @@ function render_block_core_comment_date( $attributes, $content, $block ) {
 	}
 
 	$classes = '';
-<<<<<<< HEAD
-	if ( isset( $attributes['fontSize'] ) ) {
-		$classes .= 'has-' . esc_attr( $attributes['fontSize'] ) . '-font-size';
-	}
-=======
->>>>>>> 74fb2cee (update)
 
 	$wrapper_attributes = get_block_wrapper_attributes( array( 'class' => $classes ) );
 	$formatted_date     = get_comment_date(

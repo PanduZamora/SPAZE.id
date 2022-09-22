@@ -3801,10 +3801,7 @@ function _wp_keep_alive_customize_changeset_dependent_auto_drafts( $new_status, 
  * See {@see 'setup_theme'}.
  *
  * @since 5.5.0
-<<<<<<< HEAD
-=======
  * @since 6.0.1 The `block-templates` feature was added.
->>>>>>> 74fb2cee (update)
  */
 function create_initial_theme_features() {
 	register_theme_feature(
@@ -3822,8 +3819,6 @@ function create_initial_theme_features() {
 		)
 	);
 	register_theme_feature(
-<<<<<<< HEAD
-=======
 		'block-templates',
 		array(
 			'description'  => __( 'Whether a theme uses block-based templates.' ),
@@ -3831,7 +3826,6 @@ function create_initial_theme_features() {
 		)
 	);
 	register_theme_feature(
->>>>>>> 74fb2cee (update)
 		'custom-background',
 		array(
 			'description'  => __( 'Custom background if defined by the theme.' ),

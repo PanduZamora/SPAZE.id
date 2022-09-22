@@ -32,14 +32,6 @@ function render_block_core_cover( $attributes, $content ) {
 
 		$image = get_the_post_thumbnail( null, 'post-thumbnail', $attr );
 
-<<<<<<< HEAD
-		$content = str_replace(
-			'</span><div',
-			'</span>' . $image . '<div',
-			$content
-		);
-
-=======
 		/*
 		 * Inserts the featured image between the (1st) cover 'background' `span` and 'inner_container' `div`,
 		 * and removes eventual withespace characters between the two (typically introduced at template level)
@@ -49,7 +41,6 @@ function render_block_core_cover( $attributes, $content ) {
 			$offset  = $matches[0][1];
 			$content = substr( $content, 0, $offset ) . $image . substr( $content, $offset );
 		}
->>>>>>> 74fb2cee (update)
 	} else {
 		if ( in_the_loop() ) {
 			update_post_thumbnail_cache();
