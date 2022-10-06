@@ -102,6 +102,16 @@
 			flex-direction: row-reverse;
 			border-bottom: 0px !Important;
 		}
+
+		.caption-image{
+			margin-top: 1rem;
+			font-weight: 600;
+		}
+
+		.caption-image span{
+			font-weight: bolder;
+			color: #07685b;
+		}
 	</style>
 
 	<script>
@@ -155,16 +165,16 @@
 							</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img class="d-block w-100" src="assets/images/mobile_banner_1.jpg" alt="First slide">
+									<img class="d-block w-100" src="assets/images/slide-01.jpg" alt="First slide">
 								</div>
 								<div class="carousel-item">
-									<img class="d-block w-100" src="assets/images/mobile_banner_2.jpg" alt="Second slide">
+									<img class="d-block w-100" src="assets/images/slide-02.jpg" alt="Second slide">
 								</div>
 								<div class="carousel-item">
-									<img class="d-block w-100" src="assets/images/mobile_banner_3.jpg" alt="Third slide">
+									<img class="d-block w-100" src="assets/images/slide-03.jpg" alt="Third slide">
 								</div>
 								<div class="carousel-item">
-									<img class="d-block w-100" src="assets/images/mobile_banner_4.jpg" alt="Third slide">
+									<img class="d-block w-100" src="assets/images/slide-04.jpg" alt="Third slide">
 								</div>
 							</div>
 							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -182,9 +192,6 @@
 							<h2 class="wow fadeInUp" data-wow-duration="1000ms">
 								Layanan Virtual Office & Perizinan untuk <span>UMKM</span>
 							</h2>
-							<!-- <p class="wow fadeInUp mt-5" data-wow-duration="1000ms" data-wow-delay="300ms">
-								Bagian Dari <img src="assets/images/logo/logo-dark.png" alt="">
-							</p> -->
 							<a href="#about-us" title="" class="lnk-default wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
 								Pelajari Selengkapnya <i class="la la-arrow-right"></i>
 								<span></span>
@@ -196,7 +203,10 @@
 						<!--banner-content end-->
 					</div>
 					<div class="col-lg-6">
-						<img src="assets/images/website_banner.png" alt="" class="img-fluid banner-slider wow bounceInUp">
+						<img src="assets/images/bg-1.png" alt="" class="img-fluid banner-slider wow bounceInUp">
+						<h3 class="wow fadeInUp text-center caption-image" data-wow-duration="1000ms">
+						Akses kantormu setiap hari <span>#sefleksibelitukerja</span>
+						</h3>
 					</div>
 				</div>
 			</div>
@@ -246,8 +256,8 @@
 					<div class="row align-items-center">
 						<div class="col-lg-6">
 							<div class="abt-imgz">
-								<img class="wow fadeInUp" data-wow-duration="1000ms" src="assets/images/about_1.jpg" alt="">
-								<img class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms" src="assets/images/about_2.jpg" alt="">
+								<img class="wow fadeInUp" data-wow-duration="1000ms" src="assets/images/bg-2-1.jpg" alt="">
+								<img class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms" src="assets/images/bg-2-2.jpg" alt="">
 							</div>
 							<!--abt-imgz end-->
 							<div class="abt-txt">
