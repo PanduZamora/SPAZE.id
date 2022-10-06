@@ -77,6 +77,19 @@
 			z-index: 999999999;
 		}
 
+		@media (max-width:600px) {
+			button.close {
+				border: 0 !important;
+				-webkit-appearance: none !important;
+				background: #fff !important;
+				border-radius: 10px !important;
+				padding: 2px !important;
+				margin-right: 0px;
+				z-index: 999999999;
+				margin-bottom: 2rem;
+			}
+		}
+
 		.modal-header {
 			display: -ms-flexbox;
 			display: flex;
@@ -1160,7 +1173,7 @@
 	<a href="https://bit.ly/spazeid" target="_blank" class="back-to-top link-changer d-flex align-items-center justify-content-center active"><i class="bi bi-whatsapp"></i></a>
 
 	<!-- Modal Popup -->
-	<div id="myModal" class="modal fade show" aria-modal="true" role="dialog" style="display: block; padding-left: 0px;">
+	<!-- <div id="myModal" class="modal fade show" aria-modal="true" role="dialog" style="display: block; padding-left: 0px;">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header" style="box-shadow: none;">
@@ -1175,7 +1188,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Script -->
 	<script src="assets/js/jquery.min.js"></script>

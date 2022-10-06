@@ -29,16 +29,6 @@
 <body>
 
     <?php include 'header.html'; ?>
-
-    <!-- <div class="page-loading">
-        <div class="thecube">
-            <div class="cube c1"></div>
-            <div class="cube c2"></div>
-            <div class="cube c4"></div>
-            <div class="cube c3"></div>
-        </div>
-    </div> -->
-
     <!--page-loading end-->
     <div class="wrapper">
         <section class="block mt-5" id="servicespaze">
@@ -54,7 +44,7 @@
 
                         <div class="col-12 col-md-4 mt-3">
                             <a href="https://bit.ly/spazeid">
-                                <img src="assets/images/promo/opening-promo.jpeg" alt="Promo Spaze" class="img-fluid">
+                                <img src="assets/images/promo/10 Special Offer.png" alt="Promo Spaze" class="img-fluid">
                             </a>
                             <a href="https://bit.ly/spazeid" class="lnk-default-promo">
                                 Dapatkan Promo <i class="la la-arrow-right"></i>
@@ -96,7 +86,7 @@
 
                         <div class="col-12 col-md-4 mt-3">
                             <a href="https://bit.ly/spazeid">
-                                <img src="assets/images/promo/lebih hemat.jpeg" alt="Promo Spaze" class="img-fluid">
+                                <img src="assets/images/promo/Flyer VO 2 Tahun.png" alt="Promo Spaze" class="img-fluid">
                             </a>
                             <a href="https://bit.ly/spazeid" class="lnk-default-promo">
                                 Dapatkan Promo <i class="la la-arrow-right"></i>

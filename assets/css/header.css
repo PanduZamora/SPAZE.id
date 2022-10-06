@@ -745,8 +745,8 @@
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 4rem;
-  right: 40px;
+  bottom: 1rem;
+  right: 1rem;
   background-color: #0d6b68;
   color: #FFF;
   border-radius: 50px;
@@ -780,7 +780,7 @@
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 8rem;
+    bottom: 6rem;
     right: 25px;
     background-color: #0d6b68;
     color: #FFF;
