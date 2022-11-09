@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
@@ -23,10 +24,29 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="assets/css/elegant-icons.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/header.css">
-
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W23378V');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W23378V" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <?php include 'header.html'; ?>
     <!--page-loading end-->
@@ -43,10 +63,30 @@
                     <div class="row">
 
                         <div class="col-12 col-md-4 mt-3">
-                            <a href="https://bit.ly/spazeid">
+                            <a href="https://bit.ly/qontakspaze">
+                                <img src="assets/images/promo/Paket Mutasi VO.jpg" alt="Promo Spaze" class="img-fluid">
+                            </a>
+                            <a href="https://bit.ly/qontakspaze" class="lnk-default-promo">
+                                Dapatkan Promo <i class="la la-arrow-right"></i>
+                                <span></span>
+                            </a>
+                        </div>
+
+                        <div class="col-12 col-md-4 mt-3">
+                            <a href="https://bit.ly/qontakspaze">
+                                <img src="assets/images/promo/Flash Sale VO Spaze Final.png" alt="Promo Spaze" class="img-fluid">
+                            </a>
+                            <a href="https://bit.ly/qontakspaze" class="lnk-default-promo">
+                                Dapatkan Promo <i class="la la-arrow-right"></i>
+                                <span></span>
+                            </a>
+                        </div>
+
+                        <div class="col-12 col-md-4 mt-3">
+                            <a href="https://bit.ly/qontakspaze">
                                 <img src="assets/images/promo/10 Special Offer.png" alt="Promo Spaze" class="img-fluid">
                             </a>
-                            <a href="https://bit.ly/spazeid" class="lnk-default-promo">
+                            <a href="https://bit.ly/qontakspaze" class="lnk-default-promo">
                                 Dapatkan Promo <i class="la la-arrow-right"></i>
                                 <span></span>
                             </a>
@@ -78,77 +118,77 @@
                                     <span class="sr-only">Next</span>
                                 </a>
                             </div>
-                            <a href="https://bit.ly/spazeid" class="lnk-default-promo">
+                            <a href="https://bit.ly/qontakspaze" class="lnk-default-promo">
                                 Dapatkan Promo <i class="la la-arrow-right"></i>
                                 <span></span>
                             </a>
                         </div>
 
                         <div class="col-12 col-md-4 mt-3">
-                            <a href="https://bit.ly/spazeid">
+                            <a href="https://bit.ly/qontakspaze">
                                 <img src="assets/images/promo/Flyer VO 2 Tahun.png" alt="Promo Spaze" class="img-fluid">
                             </a>
-                            <a href="https://bit.ly/spazeid" class="lnk-default-promo">
+                            <a href="https://bit.ly/qontakspaze" class="lnk-default-promo">
                                 Dapatkan Promo <i class="la la-arrow-right"></i>
                                 <span></span>
                             </a>
                         </div>
 
                         <div class="col-12 col-md-4 mt-3">
-                            <a href="https://bit.ly/spazeid">
+                            <a href="https://bit.ly/qontakspaze">
                                 <img src="assets/images/promo/use/promo_umkm.jpeg" alt="Promo Spaze" class="img-fluid">
                             </a>
-                            <a href="https://bit.ly/spazeid" class="lnk-default-promo">
+                            <a href="https://bit.ly/qontakspaze" class="lnk-default-promo">
                                 Dapatkan Promo <i class="la la-arrow-right"></i>
                                 <span></span>
                             </a>
                         </div>
 
                         <div class="col-12 col-md-4 mt-3">
-                            <a href="https://bit.ly/spazeid">
+                            <a href="https://bit.ly/qontakspaze">
                                 <img src="assets/images/promo/use/promo_cicilan.png" alt="Promo Spaze" class="img-fluid">
                             </a>
-                            <a href="https://bit.ly/spazeid" class="lnk-default-promo">
+                            <a href="https://bit.ly/qontakspaze" class="lnk-default-promo">
                                 Dapatkan Promo <i class="la la-arrow-right"></i>
                                 <span></span>
                             </a>
                         </div>
 
                         <div class="col-12 col-md-4 mt-3">
-                            <a href="https://bit.ly/spazeid">
+                            <a href="https://bit.ly/qontakspaze">
                                 <img src="assets/images/promo/use/promo_laporspt.jpeg" alt="Promo Spaze" class="img-fluid">
                             </a>
-                            <a href="https://bit.ly/spazeid" class="lnk-default-promo">
+                            <a href="https://bit.ly/qontakspaze" class="lnk-default-promo">
                                 Dapatkan Promo <i class="la la-arrow-right"></i>
                                 <span></span>
                             </a>
                         </div>
 
                         <div class="col-12 col-md-4 mt-3">
-                            <a href="https://bit.ly/spazeid">
+                            <a href="https://bit.ly/qontakspaze">
                                 <img src="assets/images/promo/use/promo 3jt.jpeg" alt="Promo Spaze" class="img-fluid">
                             </a>
-                            <a href="https://bit.ly/spazeid" class="lnk-default-promo">
+                            <a href="https://bit.ly/qontakspaze" class="lnk-default-promo">
                                 Dapatkan Promo <i class="la la-arrow-right"></i>
                                 <span></span>
                             </a>
                         </div>
 
                         <div class="col-12 col-md-4 mt-3">
-                            <a href="https://bit.ly/spazeid">
+                            <a href="https://bit.ly/qontakspaze">
                                 <img src="assets/images/promo/use/2022-bisnis-legal.jpeg" alt="Promo Spaze" class="img-fluid">
                             </a>
-                            <a href="https://bit.ly/spazeid" class="lnk-default-promo">
+                            <a href="https://bit.ly/qontakspaze" class="lnk-default-promo">
                                 Dapatkan Promo <i class="la la-arrow-right"></i>
                                 <span></span>
                             </a>
                         </div>
 
                         <div class="col-12 col-md-4 mt-3">
-                            <a href="https://bit.ly/spazeid">
+                            <a href="https://bit.ly/qontakspaze">
                                 <img src="assets/images/promo/use/pt-perorangan.webp" alt="Promo Spaze" class="img-fluid">
                             </a>
-                            <a href="https://bit.ly/spazeid" class="lnk-default-promo">
+                            <a href="https://bit.ly/qontakspaze" class="lnk-default-promo">
                                 Dapatkan Promo <i class="la la-arrow-right"></i>
                                 <span></span>
                             </a>

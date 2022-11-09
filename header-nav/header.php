@@ -249,7 +249,7 @@
             $('#wa-fb-ig5').css("display", "none");
             $('#wa-fb-ig6').css("display", "none");
             $('#wa-fb-ig7').css("display", "none");
-            $('.link-changer').attr('href', ' https://bit.ly/spazeid');
+            $('.link-changer').attr('href', ' https://bit.ly/qontakspaze');
             field.attr('value', 'virtualoffice_tiktokads');
             field.attr('name', 'virtualoffice_tiktokads');
             console.log(field)

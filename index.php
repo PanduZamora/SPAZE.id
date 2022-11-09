@@ -5,9 +5,9 @@
 <head>
 
 	<meta charset="UTF-8">
-	<title>Virtual Office 300 ribuan per Bulan</title>
+	<title>Virtual Office : mulai dari 200 ribuan/bulan</title>
 	<meta content="Virtual Office Jakarta + Jasa Pendirian PT & CV Murah hanya di Spaze.id.
-	 Hubungi Kami Segera di 0813 1212 0557" name="description">
+	 Hubungi Kami Segera di 0821 1393 9110" name="description">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="SPAZE.id">
 	<meta name="facebook-domain-verification" content="f2gxf62vn2qxgmkvgwaxqi579h500s" />
@@ -103,12 +103,12 @@
 			border-bottom: 0px !Important;
 		}
 
-		.caption-image{
+		.caption-image {
 			margin-top: 1rem;
 			font-weight: 600;
 		}
 
-		.caption-image span{
+		.caption-image span {
 			font-weight: bolder;
 			color: #07685b;
 		}
@@ -139,15 +139,6 @@
 	<!-- End Google Tag Manager (noscript) -->
 
 	<?php include 'header.html'; ?>
-
-	<!-- <div class="page-loading">
-		<div class="thecube">
-			<div class="cube c1"></div>
-			<div class="cube c2"></div>
-			<div class="cube c4"></div>
-			<div class="cube c3"></div>
-		</div>
-	</div> -->
 
 	<!--page-loading end-->
 
@@ -205,7 +196,7 @@
 					<div class="col-lg-6">
 						<img src="assets/images/bg-1.png" alt="" class="img-fluid banner-slider wow bounceInUp">
 						<h3 class="wow fadeInUp text-center caption-image" data-wow-duration="1000ms">
-						Akses kantormu setiap hari <span>#sefleksibelitukerja</span>
+							Akses kantormu setiap hari <span>#sefleksibelitukerja</span>
 						</h3>
 					</div>
 				</div>
@@ -360,7 +351,7 @@
 									<div class="price">
 										<div>
 											<span class="nominal st1">
-												mulai dari 300 ribuan
+												mulai dari 200 ribuan
 											</span>
 											<span class="unit st4">
 												/bulan
@@ -1180,7 +1171,7 @@
 	<!-- Whatsapp FLoat -->
 
 
-	<a href="https://bit.ly/spazeid" target="_blank" class="back-to-top link-changer d-flex align-items-center justify-content-center active"><i class="bi bi-whatsapp"></i></a>
+	<a href="https://bit.ly/qontakspaze" target="_blank" class="back-to-top link-changer d-flex align-items-center justify-content-center active"><i class="bi bi-whatsapp"></i></a>
 
 	<!-- Modal Popup -->
 	<!-- <div id="myModal" class="modal fade show" aria-modal="true" role="dialog" style="display: block; padding-left: 0px;">
@@ -1228,7 +1219,7 @@
 		const field = $(".field-changer");
 		if (link.includes("?fbigads")) {
 			$('.text-changer').html('<i class="fab fa fa-whatsapp fa-lg mr-10"></i> 0812-8035-0081');
-			$('.link-changer').attr('href', ' https://bit.ly/contactspazeigfb');
+			$('.link-changer').attr('href', 'https://bit.ly/contactspazeigfb');
 			field.attr('value', 'virtualoffice_fbigads');
 			field.attr('name', 'virtualoffice_fbigads');
 			console.log(field)
@@ -1241,7 +1232,7 @@
 			$('#wa-fb-ig5').css("display", "none");
 			$('#wa-fb-ig6').css("display", "none");
 			$('#wa-fb-ig7').css("display", "none");
-			$('.link-changer').attr('href', ' https://bit.ly/spazeid');
+			$('.link-changer').attr('href', 'https://bit.ly/qontakspaze');
 			field.attr('value', 'virtualoffice_tiktokads');
 			field.attr('name', 'virtualoffice_tiktokads');
 			console.log(field)
@@ -1254,7 +1245,7 @@
 			$('#wa-fb-ig5').css("display", "none");
 			$('#wa-fb-ig6').css("display", "none");
 			$('#wa-fb-ig7').css("display", "none");
-			$('.link-changer').attr('href', ' https://bit.ly/spazetiktokads');
+			$('.link-changer').attr('href', 'https://bit.ly/spazetiktokads');
 			field.attr('value', 'virtualoffice_tiktokads');
 			field.attr('name', 'virtualoffice_tiktokads');
 			console.log(field)
@@ -1299,6 +1290,23 @@
 						$('#clientlogo li:last').after($first);
 					});
 				}
+			}
+		});
+	</script>
+	<script>
+		var links = document.getElementsByTagName("a");
+
+		Array.prototype.forEach.call(links, function(elem, index) {
+			var elemAttr = elem.getAttribute("href");
+			if (elemAttr && elemAttr.includes("#")) {
+				elem.addEventListener("click", function(ev) {
+					ev.preventDefault();
+					document.getElementById(elemAttr.replace(/#/g, "")).scrollIntoView({
+						behavior: "smooth",
+						block: "start",
+						inline: "nearest"
+					});
+				});
 			}
 		});
 	</script>
